@@ -12,4 +12,6 @@ db/* - all xml files using xmldb editor. How'er for xmldb editor to detect this 
 
 settings.php created - using settings.php for archaius theme. Added only an item called mdl_localplugin in 'themes' section of settings.
 
+Another question is are all the files always required? I guess no. So removing files and folders I think are useless in this small plugin. So removed jquery, yui and pix folders.
 
+Another thing. The plagiarism folder in moodle root (to contain all plag. related plugins) has a file called lib.php, which contains only function prototypes. We need to write the functions there. So for my tmpplugin, what and where would be the prototypes???
