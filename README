@@ -1,0 +1,15 @@
+Temp plugin for moodle; to understand all plugin files involved.
+
+All files 'touched'
+
+Version.php created _/
+
+lang/en/local_mdl_tmpplugin.php created _/
+
+lib.php created _/ - Contains only a single func (tmpfunc) which prints CFG variable. I am still yet to figure out how to add a link which when clicked will call this function, or something of that sort.
+
+db/* - all xml files using xmldb editor. How'er for xmldb editor to detect this plugin of ours, we need to have a minimal content in settings.php and also in some more files.(which ones?)
+
+settings.php created - using settings.php for archaius theme. Added only an item called mdl_localplugin in 'themes' section of settings.
+
+
